@@ -238,14 +238,15 @@ function createColorPalette() {
 
 function createGallery() {
     const galleryImages = [
-        '/gallery/1.png',
-        '/gallery/2.png',
-         '/gallery/3.png',
-        '/gallery/4.png',
-         '/gallery/5.png',
-        '/gallery/6.png',
-         '/gallery/7.png',
-        '/gallery/8.png',
+        'https://raw.githubusercontent.com/cloudxplorer/KiddyPaint/refs/heads/main/gallery/1.png',
+'https://raw.githubusercontent.com/cloudxplorer/KiddyPaint/refs/heads/main/gallery/2.png',
+'https://raw.githubusercontent.com/cloudxplorer/KiddyPaint/refs/heads/main/gallery/3.png',
+'https://raw.githubusercontent.com/cloudxplorer/KiddyPaint/refs/heads/main/gallery/4.png',
+'https://raw.githubusercontent.com/cloudxplorer/KiddyPaint/refs/heads/main/gallery/5.png',
+'https://raw.githubusercontent.com/cloudxplorer/KiddyPaint/refs/heads/main/gallery/6.png',
+'https://raw.githubusercontent.com/cloudxplorer/KiddyPaint/refs/heads/main/gallery/7.png',
+'https://raw.githubusercontent.com/cloudxplorer/KiddyPaint/refs/heads/main/gallery/8.png',
+ 
     ];
     const galleryGrid = document.getElementById('galleryGrid');
     galleryGrid.innerHTML = '';
